@@ -36,11 +36,6 @@ button:hover {
   background-color: #3486eb;
 }
 
-.post-list {
-  margin: 0;
-  padding: 0;
-}
-
 textarea, input {
   padding: .5%;
   border-radius: 5px;
@@ -83,7 +78,11 @@ header {
 }
 
 header h1 {
-  font-size: 1em;
+  font-size: 30px;
+}
+
+#login{
+  font-size: 30px !important;
 }
 
 main {
@@ -126,6 +125,10 @@ main {
   font-style: italic;
   font-size: 90%;
   color: #7d7d7d;
+}
+
+.title a {
+  font-size: 175%;
 }
 
 .edit-link {
@@ -175,4 +178,15 @@ footer {
   justify-content: center;
   padding: 1%;
   font-size: 110%;
+}
+
+#homepage-main {
+  border-style: solid;
+  border-width: 5px;
+  border-color: #197d0f;
+  width: 600px;
+}
+
+.list-group-item{
+  margin-bottom: 10px !important;
 }
