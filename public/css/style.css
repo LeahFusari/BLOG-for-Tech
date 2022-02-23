@@ -121,14 +121,17 @@ main {
   line-height: 150%;
 }
 
-.post .title span {
+/* .post .title span {
   font-style: italic;
   font-size: 90%;
   color: #7d7d7d;
-}
+} */
 
-.title a {
+.title {
   font-size: 175%;
+  font-style: italic;
+  font-weight: bold;
+  color: #225ca3;
 }
 
 .edit-link {
@@ -183,10 +186,12 @@ footer {
 #homepage-main {
   border-style: solid;
   border-width: 5px;
-  border-color: #197d0f;
+  border-color: #225ca3;
   width: 600px;
 }
 
 .list-group-item{
   margin-bottom: 10px !important;
+  border-radius: 25px !important;
 }
+
